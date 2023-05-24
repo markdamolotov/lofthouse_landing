@@ -104,7 +104,10 @@ a:hover {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  width: 1140px;
+  max-width: 1140px;
+}
+.container--sm {
+  max-width: 840px;
 }
 
 .text-right {
@@ -178,4 +181,25 @@ a:hover {
 }
 .info--tel::before {
   background-image: url("./../img/header/phone.svg");
+}
+
+.benefits {
+  padding: 120px 0;
+}
+.benefits__row {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+  align-items: center;
+  text-align: center;
+}
+.benefits__item-img {
+  margin-bottom: 53px;
+}
+.benefits__item-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.35;
 }/*# sourceMappingURL=main.css.map */

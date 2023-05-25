@@ -272,4 +272,68 @@ a:hover {
   font-size: 24px;
   line-height: 1.166;
   z-index: 9;
+}
+
+.cta {
+  padding: 180px 0;
+  background: linear-gradient(180deg, #242b33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242b33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url(./../img/cta/cta-bg.jpg);
+}
+.cta__title {
+  margin-bottom: 17px;
+}
+.cta__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.cta__text {
+  line-height: 1.5;
+}
+.cta__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px 30px;
+}
+
+.form__input {
+  height: 50px;
+  padding: 12px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.928;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: background-color 0.2s ease-in;
+}
+.form__input::-moz-placeholder {
+  color: #bebebe;
+}
+.form__input::placeholder {
+  color: #bebebe;
+}
+.form__input:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.form__privacy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  line-height: 1.23;
+  color: #e7e7e7;
+  text-align: center;
+}
+.form__btn {
+  height: 50px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.687;
+  color: #fff;
+  background-color: #d4c17f;
+  transition: background-color 0.2s ease-in;
+}
+.form__btn:hover {
+  background-color: #ddc676;
 }/*# sourceMappingURL=main.css.map */
